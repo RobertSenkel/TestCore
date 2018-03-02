@@ -1,0 +1,22 @@
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.deps.json
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.runtimeconfig.json
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.runtimeconfig.dev.json
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.dll
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.pdb
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.csprojResolveAssemblyReference.cache
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.csproj.CoreCompileInputs.cache
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.AssemblyInfoInputs.cache
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.AssemblyInfo.cs
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.dll
+C:\Users\ZeRo\source\repos\CRUD Core\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.pdb
+D:\devv\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.csprojResolveAssemblyReference.cache
+D:\devv\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.csproj.CoreCompileInputs.cache
+D:\devv\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.AssemblyInfoInputs.cache
+D:\devv\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.AssemblyInfo.cs
+D:\devv\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.dll
+D:\devv\CRUD Core\obj\Debug\netcoreapp2.0\CRUD Core.pdb
+D:\devv\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.deps.json
+D:\devv\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.runtimeconfig.json
+D:\devv\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.runtimeconfig.dev.json
+D:\devv\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.dll
+D:\devv\CRUD Core\bin\Debug\netcoreapp2.0\CRUD Core.pdb

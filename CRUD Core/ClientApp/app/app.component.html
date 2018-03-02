@@ -1,0 +1,86 @@
+﻿<!--<input type="button" value="Registration" class="btn btn-default" (click)="add()" />
+<input type="button" value="Login" class="btn btn-primary" (click)="loadUsers()" /><br>
+Email :
+<input type="text" [(ngModel)]="user.email" class="form-group" /><br>
+Password :
+<input type="password" [(ngModel)]="user.password" class="form-group"><br>-->
+
+<div class="container" onclick="this.style.display='none'">
+    <section id="content">
+        <h1>Enter the site</h1>
+        <div>
+            <input placeholder="Login" [(ngModel)]="user.email" type="text">
+        </div>
+        <div>
+            <input placeholder="Password" [(ngModel)]="user.password" type="password">
+        </div>
+        <div>
+            <input value="Login" type="button" (click)="loadUsers()" onclick="this.style.display='none'"  />
+            <input type="button" value="Registration" class="btn btn-default" (click)="add();create" />
+
+        </div>
+    </section>
+
+</div>
+
+
+<table *ngIf="tableMode" class="table" >
+    <thead>
+        <h3>Table of Users</h3>
+        <tr>
+            <td>Login</td>
+            <td>Password</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let u of users">
+            <ng-template [ngIf]="user?.id != u.id" [ngIfElse]="edit">
+                <td>{{u?.email}}</td>
+                <td>{{u?.password}}</td>
+                <td>
+                    <button class="btn btn-sm btn-primary" (click)="editUser(u)">Change</button>
+                    <button class="btn btn-sm btn-danger" (click)="delete(u)">Delete</button>
+                </td>
+
+            </ng-template>
+        </tr>
+
+    </tbody>
+
+</table>
+
+
+<ng-template #edit>
+    <td>
+        <input type="text" [(ngModel)]="user.email" class="form-control" />
+    </td>
+    <td>
+        <input type="text" [(ngModel)]="user.password" class="form-control" />
+    </td>
+    <td>
+        <input type="button" value="Save" (click)="save()" class="btn btn-sm btn-success" />
+        <input type="button" value="Cancel" (click)="cancel()" class="btn btn-sm btn-warning" />
+    </td>
+</ng-template>
+
+<ng-template #create>
+
+    <div class="container">
+        <section id="content" onclick="this.style.display='none'">
+            <h1>Register on the site</h1>
+            <div>
+            <input type="text"  placeholder="Login" [(ngModel)]="user.email" />
+   </div>
+    <div>
+        <input type="text" placeholder="Password" [(ngModel)]="user.password"  />
+    </div>
+    <div>
+        <input type="button" value="Save" (click)="save()" class="btn btn-success" />
+        <input type="button" value="Cancel" (click)="cancel()" class="btn btn-warning" />
+        </div>
+        </section>
+    </div>
+</ng-template>
